@@ -1,11 +1,10 @@
-####################################################################
+#########################################################################################################
 #
-# Description : Write a program which accepts one number & checks
-#               whether that number is divisible by 3 & 5 or not
+# Description : Write a program which accepts one number and checks whether it is divisible by 3 and 5
 # Input       : 15
 # Output      : Divisible by 3 & 5
 #
-####################################################################
+########################################################################################################
 
 def CheckDivisible(iNo):
     bFlag = False
@@ -25,9 +24,9 @@ def main():
     bRet = CheckDivisible(iValue) 
 
     if(bRet == True):
-        print("The given number is divisible by 3 & 5")
+        print(iValue,"is divisible by 3 & 5")
     else:
-        print("The given number is not divisible 3 & 5")
+        print(iValue,"is not divisible 3 & 5")
 
 if __name__ == "__main__":
     main() 
